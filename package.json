@@ -1,20 +1,23 @@
 {
   "name": "mtga-status-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Magic the Gathering Arena Status App",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/heinrichschiller/mtga-status-app.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Heinrich Schiller <info@heinrichschiller.de>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/heinrichschiller/mtga-status-app/issues"
   },
-  "homepage": "https://github.com/heinrichschiller/mtga-status-app#readme"
+  "homepage": "https://github.com/heinrichschiller/mtga-status-app#readme",
+  "devDependencies": {
+    "electron": "^16.0.6"
+  }
 }
